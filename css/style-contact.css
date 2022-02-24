@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: white;
+  padding: 25px 0px;
+  font-family: lato;
+}
+.cstm-logo{
+  margin-left: 20px;
+}
+a.nav-link {
+    color: #00607E;
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-size: 20px;
+}
+i.fa.fa-bars {
+    color: #00607E;
+}
+ul.navbar-nav.mr-auto {
+    margin-left: 100px;
+}
+
+/* Banner Section */
+.banner{
+  background-color: #F14839;
+  height: 650px;
+    margin-top: -25px;
+}
+
+.contact h2{
+  color: white;
+  text-transform: uppercase;
+  margin-top: 45px;
+    margin-left: 15px;
+}
+.contact-txt p{
+  color: white;
+  margin-left: 15px;
+}
+.form-group label{
+  color: white;
+  margin-left: 15px;
+}
+.form-control{
+  background-color: #FF6154;
+  margin-left: 15px;
+  border: none;
+}
+.contact-button{
+    color: white;
+    font-weight: 700;
+    margin-top: 70px;
+    margin-left: 10px;
+    font-size: 35px;
+    background-color: transparent;
+    border: none;
+    font-family: 'Dancing Script', cursive;
+      transition: 0.4s ease-in-out;
+}
+.contact-button:hover{
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-family: 'Dancing Script', cursive;
+  color: #F13E2C;
+  transition: 0.4s ease-in-out;
+  }
+/* Footer Section */
+.footer{
+  background-color: #F13E2C;
+
+}
+.footer p{
+  color: white;
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 20px;
+  margin-right: 138px;
+}
+
+/*Responsive Breakpoints*/ 
+
+/*Mobile device*/
+@media (min-width: 320px) and (max-width: 576px){
+.banner {
+    height: 870px;
+}
+.cstm-logo {
+    width: 178px;
+}
+.contact-txt p {
+    margin-right: -65px;
+    margin-left: 2px;
+}
+.contact-button {
+    margin-top: 15px;
+    margin-left: 175px;
+    
+}
+.footer p {
+    font-size: 15px;
+    margin-right: -5px;
+}
+.form-group label {
+    margin-left: 0px;
+}
+.form-control {
+    margin-left: 0px;
+}
+
+}
+/*Small & tab device*/
+@media (min-width: 576.01px) and (max-width: 768px){
+
+.footer p{
+  margin-right: 20px;
+}
+.banner {
+    height: 910px;
+}
+.contact-button {
+    margin-top: 11px ;
+    margin-left: 198px ;
+}
+}
+
+/*Notebook & laptop device*/
+@media (min-width: 768.01px) and (max-width: 992px){
+.contact-button{
+  margin-left: 0px;
+  margin-top: 60px;
+}
+.banner {
+    height: 700px;
+}
+}
+
+/*Medium device*/
+@media (min-width: 992.01px) and (max-width: 1200px){
+
+
+
+
+}
+/*Large device*/
+@media (min-width: 1200px){
+
+}   

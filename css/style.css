@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Header Section */
+header {
+  background-color: transparent;
+  padding: 25px 0px;
+  font-family: lato;
+}
+.cstm-logo{
+  margin-left: 135px;
+}
+a.nav-link {
+    color: white;
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-size: 20px;
+}
+i.fa.fa-bars {
+    color: white;
+}
+/* Banner Section */
+.banner{
+  background: url(../img/banner.jpg)no-repeat;
+  background-size: cover;
+  padding: 210px;
+  margin-top: -150px;
+}
+.call h2{
+    color: white;
+    height: 42px;
+    width: 358px;
+    padding: 0px 15px;
+    background-color: #0000008f;
+}
+.abc p{
+color: white;
+    font-size: 15px;
+    margin: 10px 95px 50px 0px;
+}
+.cba span{
+  width: 15px; 
+  display: block;
+  border: 1px solid white;
+}
+.banner-button{
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 45px;
+}
+.banner-button:hover{
+color: black;
+background-color: white;
+transition: 0.4s ease-in-out;
+}
+
+/* Welcome Section */
+
+.welcome{
+  background-color: #F6F6F6;
+  height: 500px;
+}
+.wel h2{
+  color: #343434;
+  margin-top: 106px;
+}
+.wel-img img{
+
+}
+.wel-span span{
+  width: 15px; 
+  display: block;
+  border: 1px solid black;
+  margin-top: -170px;
+}
+.wel-p p{
+  color: #8D8D8D;
+    font-size: 15px;
+    margin: -165px 178px 0px 0px;
+}
+/* Showcase Section */
+.showcase{
+  background-color: #29282E;
+  height: 550px;
+  margin-top: -105px;
+}
+.show h2{
+  color: white;
+  margin: 145px 0px 0px 0px;
+}
+.show-img img{
+margin-top: 100px;
+}
+.show-span span{
+  width: 15px; 
+  display: block;
+  border: 1px solid white;
+  
+}
+.show-p p{
+    color: white;
+    font-size: 15px;
+    margin: 40px 95px 0px 0px;
+}
+.showcase-button{
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px 25px;
+  text-align: center;
+  margin-top: 45px;
+}
+.showcase-button:hover{
+color: black;
+background-color: white;
+transition: 0.4s ease-in-out;
+}
+/* Footer Section */
+.footer{
+  background-color: #F13E2C;
+}
+.footer p{
+  color: white;
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 20px;
+}
+
+/*Responsive Breakpoints*/ 
+
+/*Mobile device*/
+@media (min-width: 320px) and (max-width: 576px){
+.cstm-logo{
+  margin-left: 55px;
+    width: 300px;
+}
+a.nav-link {
+    color: white;
+    text-transform: uppercase;
+    margin-right: 0px;
+    font-size: 10px;
+}
+  .banner {
+    background-position: top center; 
+    margin-top: -223px; 
+    padding: 124px;
+  }
+
+.call h2 {
+    width: 231px;
+    font-size: 20px;
+    margin-top: 88px;
+}
+.abc p {
+    font-size: 13px;
+    margin: 10px 43px 50px 0px;
+}
+.wel-img img {
+    width: 345px;
+}
+.wel-p p { 
+    font-size: 13px;
+    margin: 22px 0px 0px 0px;
+}
+.wel-span span {
+    margin-top: 15px;
+}
+.wel h2 {
+    margin-top: 67px;
+    font-size: 22px;
+}
+.show-span span {
+    margin-top: 37px;
+}
+.show-img img {
+    margin-top: 100px;
+    width: 95%;
+}
+.show h2 {
+    margin-top: 100px;
+    font-size: 25px;
+}
+.show-p p {
+   font-size: 13px;
+    margin: 31px 0px 0px 0px;
+}
+}
+
+
+/*Small & tab device*/
+@media (min-width: 576.01px) and (max-width: 768px){
+.cstm-logo{
+  margin-left: 55px;
+    width: 300px;
+}
+a.nav-link {
+    color: white;
+    text-transform: uppercase;
+    margin-right: 0px;
+    font-size: 10px;
+}
+  .banner {
+    background-position: top center; 
+    margin-top: -223px; 
+    padding: 124px;
+  }
+
+.call h2 {
+    width: 231px;
+    font-size: 20px;
+    margin-top: 88px;
+}
+.abc p {
+    font-size: 13px;
+    margin: 10px 43px 50px 0px;
+}
+.wel-img img {
+    width: 398px;
+}
+.wel-p p { 
+    font-size: 14px;
+    margin: 0px 0px 0px 0px;
+}
+.wel-span span {
+    margin-top: -13px;
+}
+.wel h2 {
+    margin-top: 67px;
+    font-size: 22px;
+}
+.show-span span {
+    margin-top: 37px;
+}
+.show-img img {
+    margin-top: 100px;
+    width: 95%;
+}
+.show h2 {
+    margin-top: 100px;
+    font-size: 25px;
+}
+.show-p p {
+   font-size: 13px;
+    margin: 31px 0px 0px 0px;
+}
+}
+
+/*Notebook & laptop device*/
+@media (min-width: 768.01px) and (max-width: 992px){
+.cstm-logo{
+  margin-left: 100px;
+    width: 300px;
+}
+a.nav-link {
+    color: white;
+    text-transform: uppercase;
+    margin-right: 0px;
+    font-size: 10px;
+}
+  .banner {
+    background-position: top center; 
+    margin-top: -223px; 
+  }
+
+.call h2 {
+    width: 261px;
+    font-size: 23px;
+}
+.wel-img img {
+    width: 540px;
+}
+.wel-p p {
+    margin: -20px 0px 0px 0px;
+}
+.wel-span span {
+    margin-top: -55px;
+}
+.wel h2 {
+    margin-top: 67px;
+    font-size: 25px;
+}
+.show-img img {
+    margin-top: 100px;
+    width: 95%;
+}
+.show h2 {
+    margin-top: 100px;
+    font-size: 25px;
+}
+.show-p p {
+    font-size: 15px;
+    margin: 40px 0px 0px 0px;
+}
+
+}
+
+/*Medium device*/
+@media (min-width: 992.01px) and (max-width: 1200px){
+.cstm-logo{
+  margin-left: 192px;
+    width: 300px;
+}
+a.nav-link {
+    color: white;
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-size: 20px;
+}
+  .banner {
+    background-position: top center;  
+  }
+ 
+.wel-p p {
+    font-size: 14px;
+    margin-top: -110px;
+}
+.show-img img {
+    width: 104%;
+}
+.wel-img img {
+    width: 103%;
+}
+.wel-span span {
+    margin-top: -122px;
+}
+}
+/*Large device*/
+@media (min-width: 1200px){
+
+}
